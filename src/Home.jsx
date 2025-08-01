@@ -75,7 +75,7 @@ const hotels = [
 const Home = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   return (
-    <div className="min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('src/assets/page.jpg')" }}>
+    <div className="min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('public/page.jpg')" }}>
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-20">
